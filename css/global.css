@@ -1,0 +1,138 @@
+html, body
+{
+	background: #5c5c5c url('../images/Background.jpg') repeat-x;
+	margin: 0px;
+	padding: 0px;
+}
+img {border:0;}
+#container
+{
+	height: 100%;
+	width: 100%;
+}
+.spacing
+{
+	margin-bottom:4px;
+}
+#nav
+{
+	background: url('../images/nav_bg.jpg') no-repeat;
+	height: 36px;
+	list-style: none;
+	margin-bottom: 0px;
+	padding: 0;
+	width: 800px;
+	
+}
+#nav li, #bottom_nav li
+{
+	display: inline;
+}
+#nav img, #nav a:link, #nav a:visited, #nav a:hover
+{
+	border: 0px;
+	
+}
+#bottom_nav img
+{
+	border: 0px;
+	margin-top: 8px;
+}
+#bottom_nav
+{
+	background: url('../images/bottom_nav.jpg') no-repeat;
+	height: 37px;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	width: 800px;
+}
+.shine
+{
+	filter: alpha(opacity=120);
+	khtml-opacity: 1.2;
+	moz-opacity: 1.2;
+	opacity: 1.2;
+	
+}
+
+#content
+{
+	height: auto;
+	margin: 0px;
+	min-height: 586px;
+	overflow: hidden;
+	padding: 0px;
+	width: 800px;
+	background:#fff;
+}
+.address
+{
+	color: #000;
+	font-family: Times New Roman, calibri, arial, verdana;
+	font-size: 12pt;
+}
+.link a
+{
+	color: #000;
+	font-family: Times New Roman, calibri, arial, verdana;
+	font-size: 10pt;
+}
+#center_content
+{
+	color: #000;
+	font-family: Times New Roman, calibri, arial, verdana;
+	font-size: 10.5pt;
+	height: auto;
+	line-height: 1.5em;
+	margin-top: 30px;
+	overflow: hidden;
+	padding: 2px;
+	width: 760px;
+	background:#fff;
+	
+}
+#center_content_noscroll
+{
+	color: #000;
+	font-family: Times New Roman, calibri, arial, verdana;
+	font-size: 10.5pt;
+	height: auto;
+	line-height: 1.5em;
+	margin-top: 30px;
+	overflow: hidden;
+	padding: 2px;
+	width: 760px;
+	background:#fff;
+	
+}
+#center_content_noscroll a 
+{
+	color: #000;
+	font-family: Times New Roman, calibri, arial, verdana;
+	font-size: 10pt;
+	
+}
+#gray_bottom
+{
+	background: #5c5c5c;
+	height: 110px;
+	margin: 0px;
+	padding: 0px;
+	width: 800px;
+}
+#gray_bottom li, #gray_bottom a
+{
+	color: #fff;
+	display: inline;
+	font-family: helvetica, arial, verdana;
+	font-size: 12px;
+	padding: 0 6px 0 4px;
+	text-decoration: none;
+}
+.credits
+{
+	color: #888888;
+	font-family: helvetica, arial, verdana;
+	font-size: 11px;
+}
