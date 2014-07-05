@@ -6,5 +6,5 @@ PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=us-ascii"/>
 <link rel="stylesheet" media="all" type="text/css" href="css/global.css"/>
-
+<link rel="stylesheet" media="all" type="text/css" href="css/next.css"/>
 <?php 
