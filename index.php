@@ -28,15 +28,21 @@ require_once('header.php');
 				</td>
 			</tr>
 			<tr valign="top" height="30px">
-				<th colspan="4" valign="top">Latest news:</th>
+				<th colspan="4" valign="top" class="latest-title"><a href="news.php">Latest news</a>:</th>
 			</tr>
 			<tr valign="top">
-				<td colspan="1" width="90px">Date</td>
-				<td colspan="3">Item</td>
-			</tr>
-			<tr valign="top">
-				<td><strong>8/20/2013:</strong></td>
-				<td>Balfour Investors and SEACOR Holdings announces formation of CLEANCOR.</td>
+				<td colspan="4">
+				<div class="news-list">
+					<ul>
+						<li>
+							<strong>8/20/2013:</strong> <a href="article-seacor-balfour-announce.php">Balfour Investors and SEACOR Holdings announces formation of CLEANCOR.</a>
+						</li>
+						<li>
+							<strong>8/18/2013:</strong> <a href="article-two.php">Another news story</a>.
+						</li>
+					</ul>
+				</div>
+				</td>
 			</tr>
 		</table>
 	</div>

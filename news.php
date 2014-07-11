@@ -19,7 +19,7 @@ require_once('header.php');
 			</h2>
 			<div class="article">
 				<h3>
-					SEACOR Holdings Inc. and Balfour Investors Inc. Announce Formation of CLEANCOR Energy Solutions LLC
+					<a href="article-seacor-balfour-announce.php">SEACOR Holdings Inc. and Balfour Investors Inc. Announce Formation of CLEANCOR Energy Solutions LLC</a>
 				</h3>
 				<p>
 				SEACOR Holdings Inc. and Balfour Investors Inc. today announced the formation of CLEANCOR Energy Solutions LLC ("CLEANCOR"), an energy merchant bank focusing on financing for and investment in clean-fuel start-up or early stage enterprises, technologies, infrastructure, logistics services, and projects.
@@ -28,7 +28,7 @@ require_once('header.php');
 			</div>
 			<div class="article">
 				<h3>
-					SEACOR Holdings Inc. and Balfour Investors Inc. Announce Formation of CLEANCOR Energy Solutions LLC
+					<a href="article-two.php">SEACOR Holdings Inc. and Balfour Investors Inc. Announce Formation of CLEANCOR Energy Solutions LLC</a>
 				</h3>
 				<p>
 				SEACOR Holdings Inc. and Balfour Investors Inc. today announced the formation of CLEANCOR Energy Solutions LLC ("CLEANCOR"), an energy merchant bank focusing on financing for and investment in clean-fuel start-up or early stage enterprises, technologies, infrastructure, logistics services, and projects.
