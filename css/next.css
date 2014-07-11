@@ -1,3 +1,23 @@
 .inner {
 	padding: 0px 5px;
 }
+.latest-title, #center_content_noscroll .latest-title a {
+	font-size:19px;
+}
+.news-list a {
+	font-size: 14px!important;
+}
+.featured-image img {
+	float: right;
+	margin: 10px 0 10px 14px;
+}
+h3 a {
+	display: block!important;
+	font-size: 1.17em!important;
+	margin-before: 1em!important;
+	margin-after: 1em!important;
+	margin-start: 0px!important;
+	margin-end: 0px!important;
+	font-weight: bold!important;
+	text-decoration:none!important;
+}
