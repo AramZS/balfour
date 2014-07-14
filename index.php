@@ -22,9 +22,6 @@ require_once('header.php');
 				<p>Balfour Investors is a merchant bank whose principals have acquired assets across a multitude of industries for over 35 years. It is the private investment office of Harry Freund and Jay Goldsmith.
 				</p>
 				<p>Over the years, particularly during times of unstable economic cycles and industry downturns, they have made significant investments in both troubled and performing companies.  Balfour's principals have also engaged in specialized advisory work.</p>
-					<p>
-					Balfour Investors has partnered with SEACOR Holdings Inc. to create CLEANCOR, an energy merchent bank focused on financing for and investment in clean-fuel start-up or early stage enterprises, technologies, infrastructyure, logistics services and projects. 
-					</p>
 				</td>
 			</tr>
 			<tr valign="top" height="30px">
