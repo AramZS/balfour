@@ -1,24 +1,25 @@
-<?php ?>
+                    </div> <!-- content wrap -->
 
-<div id="gray_bottom" align="center">
-<img src="images/bottom_nav.jpg" alt=""/>
-<ul>
-<li><a href="index.php">Home</a></li>
-<li><a href="bios.php">Bios</a></li>
-<li><a href="investment_strategy.php">Investment Strategy</a></li>
-<li><a href="portfolio_companies.php">Portfolio Companies</a></li>
-<li><a href="advisory_board.php">Advisory Board</a></li>
-<li><a href="contact_info.php">Contact Info</a></li>
-</ul>
-<span class="credits">
-&copy; Balfour Investors, Inc.
-<script type="text/javascript">
-var d=new Date();
-document.write(d.getFullYear());
-</script> 
-</span>
-</div>
-</div>
-</body>
-</html>
-<?php 
+					<footer class="footer" role="contentinfo">
+					
+						<div id="inner-footer" class="row clearfix">
+						
+							<div class="large-12 medium-12 columns show-for-medium-up">
+								<nav role="navigation">
+		    						<?php joints_footer_links(); ?>
+		    					</nav>
+		    				</div>
+			               
+			                <div class="large-12 medium-12 columns">		
+								<p class="source-org copyright">&copy; <?php bloginfo('name'); ?> <?php echo date('Y'); ?>.</p>
+							</div>		
+						</div> <!-- end #inner-footer -->			
+					</footer> <!-- end .footer -->
+				</div> <!-- end #container -->
+			</div> <!-- end .inner-wrap -->
+		</div> <!-- end .off-canvas-wrap -->
+						
+				<?php wp_footer(); ?>
+	</body>
+
+</html> <!-- end page -->
