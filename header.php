@@ -1,40 +1,69 @@
-<?php 
+<!doctype html>
 
-?>
-<body>
-<div id="container" align="center">
-<img src="images/balfour_partners.jpg" alt="Balfour Partners"/>
-<table width="100%" id="nav" cellpadding="0" cellspacing="0" border="0">
-<tr>
-<td width="33%" valign="top">
-<a href="index.php" onmouseover="document.home.src='images/nav_home.jpg'"
-onmouseout="document.home.src='images/nav_home_hover.jpg'">
-<img src="images/nav_home_hover.jpg" alt="Home" name="home"/>
-</a>
-</td><td width="33%" align="center" valign="top"><a href="bios.php" onmouseover="document.bios.src='images/nav_bios.jpg'"
-onmouseout="document.bios.src='images/nav_bios_hover.jpg'">
-<img src="images/nav_bios_hover.jpg" alt="Bios" name="bios"/>
-</a></td><td width="33%" valign="top" align="right">
-<a href="investment_strategy.php" onmouseover="document.invest.src='images/nav_investment.jpg'"
-onmouseout="document.invest.src='images/nav_investment_hover.jpg'">
-<img src="images/nav_investment_hover.jpg" alt="Investment Strategy" name="invest"/>
-</a>
-</td>
-</tr>
-</table>
-<img src="images/header_img.jpg" alt="Balfour Partners Investment Strategies"/>
-<ul id="bottom_nav">
-<li><a href="portfolio_companies.php" onmouseover="document.portfolio.src='images/nav_portfolio.jpg'"
-onmouseout="document.portfolio.src='images/nav_portfolio_hover.jpg'">
-<img src="images/nav_portfolio_hover.jpg" alt="Portfolio Companies" name="portfolio" />
-</a></li>
-<li><a href="advisory_board.php" onmouseover="document.advise.src='images/nav_advisory.jpg'"
-onmouseout="document.advise.src='images/nav_advisory_hover.jpg'">
-<img src="images/nav_advisory_hover.jpg" alt="Advisory Board" name="advise" />
-</a></li>
-<li><a href="contact_info.php" onmouseover="document.contact.src='images/nav_contact.jpg'"
-onmouseout="document.contact.src='images/nav_contact_hover.jpg'">
-<img src="images/nav_contact_hover.jpg" alt="Contact Info" name="contact" /></a></li>
-</ul>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" <?php language_attributes(); ?>> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" <?php language_attributes(); ?>> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" <?php language_attributes(); ?>> <![endif]-->
+<!--[if gt IE 8]><!--> <html <?php language_attributes(); ?>> <!--<![endif]-->
+
+	<head>
+		<meta charset="utf-8">
+
+		<title><?php wp_title(''); ?></title>
+
+		<!-- Google Chrome Frame for IE -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+		<!-- mobile meta -->
+		<meta name="HandheldFriendly" content="True">
+		<meta name="MobileOptimized" content="320">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+		<!-- icons & favicons -->
+		<link rel="apple-touch-icon" href="<?php echo get_template_directory_uri(); ?>/library/images/apple-icon-touch.png">
+		<link rel="icon" href="<?php echo get_template_directory_uri(); ?>/favicon.png">
+		<!--[if IE]>
+			<link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/favicon.ico">
+		<![endif]-->
+		<meta name="msapplication-TileColor" content="#f01d4f">
+		<meta name="msapplication-TileImage" content="<?php echo get_template_directory_uri(); ?>/library/images/win8-tile-icon.png">
+
+  	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
+
+		<?php wp_head(); ?>
+		
+		<!-- Drop Google Analytics here -->
+		<!-- end analytics -->
+
+	</head>
+
+	<body <?php body_class(); ?>>
+
+	<div class="off-canvas-wrap">
+		<div class="inner-wrap">
+			<div id="container">
 	
-<?php 
+				<header class="header" role="banner">
+	
+					<div id="inner-header" class="headre-wrap row">
+						<div class="large-12 clearfix show-for-medium-up">
+							<a href="<?php echo home_url(); ?>" rel="nofollow"><img src=" <?php echo get_template_directory_uri(); ?>/i/logo.jpg"/></a>
+						</div>					
+						
+						 <?php get_template_part( 'partials/nav', 'offcanvas' ); ?> 
+						 <?php get_template_part( 'partials/nav', 'primary' ); ?>						
+						 <?php //get_template_part( 'partials/nav', 'topbar' ); ?>
+						<div class="large-12 clearfix">
+							<a href="<?php echo home_url(); ?>" rel="nofollow"><img src=" <?php echo get_template_directory_uri(); ?>/i/header_img.png"/></a>
+							<?php /*?><small><?php  bloginfo('description'); ?></small></h1><?php */?>
+						</div>	
+						 <?php  get_template_part( 'partials/nav', 'secondary' ); ?>
+						 
+						 <?php // get_template_part( 'partials/nav', 'offcanvas-sidebar' ); ?>  								
+						
+						<!-- You only need to use one of the above navigations.
+							 Offcanvas-sidebar adds a sidebar to a "right" offcanavas menus. -->
+										
+					</div> <!-- end #inner-header -->
+	
+				</header> <!-- end header -->
+            	<div class="content-wrap"> <!-- content wrap -->
